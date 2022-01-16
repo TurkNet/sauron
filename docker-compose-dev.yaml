@@ -1,0 +1,83 @@
+version: '3.6'
+
+services:
+  sauronclient:
+    image: sauron-client:latest
+    ports:
+      - "5000:5000"
+
+  sauronzabbixapi:
+    image: sauron-zabbix-api:latest
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    ports:
+      - "5011:80"
+
+  influxdb:
+    image: "influxdb:latest"
+    ports:
+      - "8086:8086"
+      - "8082:8082"
+      - "8089:8089/udp"
+
+  grafana:
+    image: grafana/grafana:latest
+    ports:
+      - "3000:3000"
+    depends_on:
+      - influxdb
+    environment:
+      GF_SMTP_ENABLED: 'true'
+      GF_SMTP_HOST: 'smtp.yandex.com:465'
+      GF_SMTP_USER: 'bilalislam815@yandex.com'
+      GF_SMTP_PASSWORD: 'jnwuzothkbfslvtu'
+      GF_SMTP_FROM_ADDRESS: 'bilalislam815@yandex.com'
+      GF_LOG_MODE: "console file"
+      GF_INSTALL_PLUGINS: grafana-clock-panel,grafana-piechart-panel,grafana-polystat-panel
+      TERM: linux
+
+  sauroninfluxapi:
+    image: sauron-influx-api:latest
+    ports:
+      - "5010:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+
+  sauronmessagebridge:
+    image: sauron-messagebridge-webhook:latest
+    ports:
+      - "8080:8080"
+    environment:
+      ENV_FILE: dev
+
+  sauronanakinconsumer:
+    image: sauron-anakin-consumer:latest
+    ports:
+      - "8080:8080"
+    environment:
+      ENV_FILE: dev
+
+  saurontnmonapi:
+    image: sauron-tnmon-api:latest
+    ports:
+      - "8002:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+  
+  saurontnmonclient:
+    image: sauron-tnmon-client:latest
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV= development
+  
+  rabbitmq:
+    image: rabbitmq:3-management
+    ports:
+      - '5672:5672'
+      - '15672:15672'
+
+  redis:
+    image: redis
+    ports:
+      - '6379:6379'
