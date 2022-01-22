@@ -142,15 +142,3 @@ services:
 
 # TechStack
 https://stackshare.io/turknet-noctools-team/turknet-noctools-team
-
-# Known Issues
-* paste tn nuget config for all dotnet apps
-* it must be fix dockerfile as dotnet v5.0 for monitor api
-* add to dockerfile into influx api
-* it must be fix dockerfile for  monitor client
-* it must be dockerfile for test automation
-* it must be environment setting for monitoring client
-
-# Todo for replatforming on dotnet 6.0
-* planned operation
-* telekom ssg 
