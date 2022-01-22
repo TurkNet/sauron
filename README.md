@@ -1,3 +1,10 @@
+# Motivation
+
+![Motivation](./assets/motivation.png)
+
+# Design Overview
+![Architecture](./assets/sauron.png)
+
 # Sauron - Distributed Monitoring System
 
 ![sauron](https://upload.wikimedia.org/wikipedia/tr/3/3a/Sauron.jpg)
@@ -132,10 +139,6 @@ services:
     ports:
       - '6379:6379'
 ```
-
-
-# Design Overview
-![Aeron Architecture](./assets/sauron.png)
 
 # TechStack
 https://stackshare.io/turknet-noctools-team/turknet-noctools-team
