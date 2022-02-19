@@ -1,13 +1,17 @@
-# Motivation
+# Turknet Backbone
+![Backbone](./assets/backbone.png)
 
+# Turknet Infra
+![infra](./assets/infra.png)
+
+# Overall Vission
+![bigpicture](./assets/sauron_overall.png)
+
+# Motivation
 ![Motivation](./assets/motivation.png)
 
 # Design Overview
 ![Architecture](./assets/sauron.png)
-
-# Sauron - Distributed Monitoring System
-
-![sauron](https://upload.wikimedia.org/wikipedia/tr/3/3a/Sauron.jpg)
 
 **What is Distributed ?**
 ----------------
@@ -142,3 +146,16 @@ services:
 
 # TechStack
 https://stackshare.io/turknet-noctools-team/turknet-noctools-team
+
+
+## Our Core Pilars
+* Simple design
+* Automate repetitive tasks
+* TDD
+* CI
+* DDD
+* SOLID
+* Clean Code
+* Fast Feedback
+* Continuous Delivery
+* Stable and repeatable release processes
