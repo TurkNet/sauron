@@ -166,3 +166,4 @@ https://stackshare.io/turknet-noctools-team/turknet-noctools-team
 * https://turk.net/wholesale/data-center
 * https://turk.net/hakkimizda/altyapimiz
 * https://www.tocinstitute.org/the-goal-summary.html
+* https://erolcalisyolveinsaatmak.wordpress.com/teknik-dokumanlar/
