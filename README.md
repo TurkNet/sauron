@@ -159,3 +159,9 @@ https://stackshare.io/turknet-noctools-team/turknet-noctools-team
 * Fast Feedback
 * Continuous Delivery
 * Stable and repeatable release processes
+
+
+# Useful Links
+* https://turk.net/wholesale/network
+* https://turk.net/wholesale/data-center
+* https://turk.net/hakkimizda/altyapimiz
