@@ -13,6 +13,10 @@
 # Design Overview
 ![Architecture](./assets/sauron.png)
 
+
+![sauron](https://upload.wikimedia.org/wikipedia/tr/3/3a/Sauron.jpg)
+
+
 **What is Distributed ?**
 ----------------
 
