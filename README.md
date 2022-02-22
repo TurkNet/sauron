@@ -14,8 +14,8 @@
 ![Architecture](./assets/sauron.png)
 
 
+# Sauron - Distributed Monitoring System
 ![sauron](https://upload.wikimedia.org/wikipedia/tr/3/3a/Sauron.jpg)
-
 
 **What is Distributed ?**
 ----------------
