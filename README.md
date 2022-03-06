@@ -13,6 +13,24 @@
 # Design Overview
 ![Architecture](./assets/sauron.png)
 
+
+# The 3 Keys of Microservices Governance
+
+## Domain-Based
+One of the key principles of microservices architectures is to follow domain-driven design (DDD). Having said that, our governance strategy should consider the domain as a first-class citizen wherein business or domain experts should define the information model following the DDD. The business should also be able to define the business capabilities for each of the domains from the information model.
+
+## Product-Centric
+The business should be able to easily define products from existing information models and business capabilities as well as be able to define business KPIs for products. Governance should also take care of providing a holistic view of existing products, APIs, services, and actual KPIs to the business. This will help the business to align business capabilities with end customers, quickly identify new and innovative products and measure their effectiveness.
+
+## Platform-Thinking 
+With platform-thinking, the enterprise should provide a self-service governance platform for both business as well as IT, wherein both can collaborate and align. The enterprise should be able to define global policies, standards, and guidelines through templates. Teams can build developer templates based on the tools and technologies that they have identified for their domain. The technical artifacts should be auto-generated through templates and deployed to respective run-time environments through a CI/CD pipeline, thereby automating the implementation of policies, standards, and guidelines.
+
+![business-architecture](./assets/business-architecture.gif)
+
+# Sauron - Distributed Monitoring System
+
+![sauron](https://upload.wikimedia.org/wikipedia/tr/3/3a/Sauron.jpg)
+
 **What is Distributed ?**
 ----------------
 
@@ -72,6 +90,13 @@ Please clone the following repositories and put them into the same working direc
 - [Noctools-Sauron-Monitor-Client](https://dev.azure.com/turknet-it/Tn.Noctools.Monitor/_git/Tn.Noctools.Monitor.Client)
 - [Noctools-Sauron-Test-Automation](https://dev.azure.com/turknet-it/Tn.Noctools.TestAutomation)
 - [Noctools-Sauron-Test-Automation-TnMon](https://dev.azure.com/turknet-it/NocTools.TestAutomation.Tnmon)
+- [NocTools-Sauron-Test-Automation.Tnmon.v2](https://dev.azure.com/turknet-it/NocTools.TestAutomation.Tnmon.v2)
+- [Noctools-Sauron-SeffaflikSayfasi](https://dev.azure.com/turknet-it/Tn.Noctools.Data/_git/Tn.Noctools.SeffaflikSayfasi)
+- [Noctools-Sauron-Scripts](https://dev.azure.com/turknet-it/Tn.Noctools.Data/_git/Tn.Noctools.Scripts)
+- [Noctools-Sauron-PPPSessionDataCollector](https://dev.azure.com/turknet-it/Tn.Noctools.Data/_git/Tn.Noctools.PPPSessionDataCollector)
+- [Noctools-Sauron-L2TP_Sessions](https://dev.azure.com/turknet-it/Tn.Noctools.Data/_git/Tn.Noctools.L2TP_Sessions)
+- [Noctools-Sauron-CereusTransporter](https://dev.azure.com/turknet-it/Tn.Noctools.Data/_git/Tn.Noctools.CereusTransporter)
+- [Noctools-Sauron-wiki](https://turknet-it@dev.azure.com/turknet-it/Board%20NOC%20Tools/_git/Board-NOC-Tools.wiki)
 
 **How to build?**
 ----------------
@@ -147,6 +172,51 @@ services:
 # TechStack
 https://stackshare.io/turknet-noctools-team/turknet-noctools-team
 
+# Known Issues
+* paste tn nuget config for all dotnet apps
+* it must be fix dockerfile as dotnet v5.0 for monitor api
+* add to dockerfile into influx api
+* it must be fix dockerfile for  monitor client
+* it must be dockerfile for test automation
+* it must be environment setting for monitoring client
+* tnmon parser install in docker-compose
+
+# Todo for replatforming on dotnet 6.0
+* planned operation
+* telekom ssg 
+* noctools admin panel
+
+
+# Preparing Dashboards
+* customer icmp
+* customer utilization
+* ssg icmp
+* ssg utilization
+
+
+# Failure Detection System
+
+## Roadmap APIs
+* tnsauron customer nonpppoe utilization api (include burstable)
+* tnsauron customer pppoe from tr69 utilization api
+* tnsauron ssg sla api for ivr
+
+## Roadmap Consumers
+* ssg sla down into push ssg table - remove netmon port listener
+* customer sla down into push core engineering team
+* ssg down / backbone down into push creatio
+* ssg / backbone utilization threshold increase into push tnmon siem tool > ticket from jira
+* yapa fiber (gpon) down into push yapa fiber table 
+
+## Roadmap DB
+* Cluster Influxdb
+
+## Roadmap Dashboards
+* Network elements 
+* Customer equipments
+* Service Monitoring 
+* Quality Monitoring 
+* Wi-Fi Monitoring 
 
 ## Our Core Pilars
 * Simple design
@@ -159,6 +229,7 @@ https://stackshare.io/turknet-noctools-team/turknet-noctools-team
 * Fast Feedback
 * Continuous Delivery
 * Stable and repeatable release processes
+
 
 
 # Useful Links

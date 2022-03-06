@@ -1,5 +1,5 @@
 #!/bin/bash
-REPOSITORIES=(Tn.Noctools.Monitoring.Client Tn.Noctools.Zabbix.Api Tn.Noctools.Cacti.Consumer Tn.Noctools.Influx.Api Tn.NocTools.MessageBridge Tn.Noctools.Anakin.Consumer Tn.Noctools.Monitor.Api Tn.Noctools.Monitor.Client)
+REPOSITORIES=(Tn.Noctools.Framework Tn.Noctools.Monitoring.Client Tn.Noctools.Zabbix.Api Tn.Noctools.Cacti.Consumer Tn.Noctools.Influx.Api Tn.NocTools.MessageBridge Tn.Noctools.Anakin.Consumer Tn.Noctools.Monitor.Api Tn.Noctools.Monitor.Client Tn.Noctools.TestAutomation NocTools.TestAutomation.Tnmon NocTools.TestAutomation.Tnmon.v2 Tn.Noctools.SeffaflikSayfasi Tn.Noctools.Scripts Tn.Noctools.PPPSessionDataCollector Tn.Noctools.L2TP_Sessions Tn.Noctools.CereusTransporter)
 for REPOSITORY in ${REPOSITORIES[*]}
 do
       cd ~/devops/sauron/scripts
