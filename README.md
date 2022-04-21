@@ -241,3 +241,9 @@ https://stackshare.io/turknet-noctools-team/turknet-noctools-team
 * https://turk.net/hakkimizda/altyapimiz
 * https://www.tocinstitute.org/the-goal-summary.html
 * https://erolcalisyolveinsaatmak.wordpress.com/teknik-dokumanlar/
+
+
+
+# A Lessons in Learned
+
+PS : The art of system design is the Picking the right architecture = Picking the right battles + Managing trade-offs
