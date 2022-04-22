@@ -234,6 +234,9 @@ https://stackshare.io/turknet-noctools-team/turknet-noctools-team
 * Stable and repeatable release processes
 
 
+# Scale Pilars
+![scale-pilars](./assets/scale-pilars.png)
+
 
 # Useful Links
 * https://turk.net/wholesale/network
