@@ -237,6 +237,15 @@ https://stackshare.io/turknet-noctools-team/turknet-noctools-team
 # Scale Pilars
 ![scale-pilars](./assets/scale-pilars.png)
 
+# Inspiring  Books 
+![scale-pilars](https://architectelevator.com/assets/img/architect_library_all.jpg)
+
+# Migration Strategy from vm to k8s
+![k8s](./assets/mecha.png)
+
+# Zero to Hero
+![k8s](./assets/architecture-styles.png)
+
 
 # Useful Links
 * https://turk.net/wholesale/network
