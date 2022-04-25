@@ -237,19 +237,19 @@ https://stackshare.io/turknet-noctools-team/turknet-noctools-team
 # Scale Pilars
 ![scale-pilars](./assets/scale-pilars.png)
 
-# Inspiring  Books 
-![ddd](./assets/Books/ddd.png)
-![nw](./assets/Books/e2enw.png)
-![eip](./assets/Books/eip.png)
-![howtosolveit](./assets/Books/howtosolveit.png)
-![implementationpatterns](./assets/Books/implementationpatterns.png)
-![microservicepatterns](./assets/Books/microservicepatterns.png)
-![sre](./assets/Books/sre.png)
-![theartofwar](./assets/Books/theartofwar.png)
-![thedeep](./assets/Books/thedeep.png)
-![theeffectiveengineer](./assets/Books/theeffectiveengineer.png)
-![thegoal](./assets/Books/thegoal.png)
-![thesystemarchitectingoforganization](./assets/Books/thesystemarchitectingoforganization.png)
+# Inspiring  books 
+![ddd](./assets/books/ddd.png)
+![nw](./assets/books/e2enw.png)
+![eip](./assets/books/eip.png)
+![howtosolveit](./assets/books/howtosolveit.png)
+![implementationpatterns](./assets/books/implementationpatterns.png)
+![microservicepatterns](./assets/books/microservicepatterns.png)
+![sre](./assets/books/sre.png)
+![theartofwar](./assets/books/theartofwar.png)
+![thedeep](./assets/books/thedeep.png)
+![theeffectiveengineer](./assets/books/theeffectiveengineer.png)
+![thegoal](./assets/books/thegoal.png)
+![thesystemarchitectingoforganization](./assets/books/thesystemarchitectingoforganization.png)
 
 
 # Migration Strategy from vm to k8s
