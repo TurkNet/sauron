@@ -238,7 +238,19 @@ https://stackshare.io/turknet-noctools-team/turknet-noctools-team
 ![scale-pilars](./assets/scale-pilars.png)
 
 # Inspiring  Books 
-![scale-pilars](https://architectelevator.com/assets/img/architect_library_all.jpg)
+![ddd](./assets/Books/ddd.png)
+![nw](./assets/Books/e2enw.png)
+![eip](./assets/Books/eip.png)
+![howtosolveit](./assets/Books/howtosolveit.png)
+![implementationpatterns](./assets/Books/implementationpatterns.png)
+![microservicepatterns](./assets/Books/microservicepatterns.png)
+![sre](./assets/Books/sre.png)
+![theartofwar](./assets/Books/theartofwar.png)
+![thedeep](./assets/Books/thedeep.png)
+![theeffectiveengineer](./assets/Books/theeffectiveengineer.png)
+![thegoal](./assets/Books/thegoal.png)
+![thesystemarchitectingoforganization](./assets/Books/thesystemarchitectingoforganization.png)
+
 
 # Migration Strategy from vm to k8s
 ![k8s](./assets/mecha.png)
